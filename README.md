@@ -4,9 +4,13 @@
 ```ts
 export const API_KEY = 'api key';
 ```
+Установить зависимости:
+```bash
+cd server && npm install
+```
 для запуска проекта из директории server выполнить
 ```bash
-npm run start
+cd server && npm run start
 ```
 Для отправки запроса в chat gpt использовать следующий эндпоинт (по умолчанию порт 3000)
 #### - POST http://localhost:3000/openai/send
